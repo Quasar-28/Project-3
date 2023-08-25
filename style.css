@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.upstr{
+    
+    height: 50px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/05/27/08/25/candles-6287403_960_720.jpg");
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+}
+#upstr_p1{
+    color: antiquewhite;
+}
+.panel{
+    /* border: solid black; */
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin: 1.5em 4em;
+    
+
+    
+}
+
+#logo{
+    width: 10em;
+    height: 2em;
+    margin-right: 11.8em;
+    padding-top: 1em;
+}
+.navbar{
+    /* border: solid green; */
+   display: flex;
+   gap: 40px; 
+   font-size: 18px;
+   margin-left: 10em;
+   
+   align-items: center;
+   
+   
+}
+li{
+    list-style-type: none;
+}
+li:hover{
+    color: blue;
+}
+.btn1{
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color:white;
+    font-size: 18px;
+    width: 6em;
+    height: 2.5em;
+    
+}
+button.btn1:hover{
+    color: blue;
+}
+.btn2{
+    border: 1px solid blue;
+    border-radius: 4px;
+    background-color:blue;
+    color: white;
+    font-size: 18px;
+    width: 6em;
+    height: 2.5em;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+button.btn2:hover{
+   background-color:darkblue;
+}
+.lower{
+    /* border: solid black; */
+    display: flex;
+    margin-top: 4em;
+    margin-left: 6em;
+    height: 27em;
+}
+.right{
+    width: 48%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+#img2{
+    height: 27em;
+    object-fit: cover;
+}
+/* left text in bold */
+.lt1{
+    /* border: solid yellow; */
+    margin-top: 2em;
+    font-size: 50px;
+    margin-bottom: 12px;
+
+}
+.lt2{
+    /* border: solid green; */
+    margin-top: 1px;
+    margin-right: 90px;
+    font-size: 24px;
+    color:grey;
+}
+#btn3{
+    margin-top: 5px;
+    border: solid blue;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 8em;
+    height: 3em;
+    background-color: blue;
+    color: white;
+}
